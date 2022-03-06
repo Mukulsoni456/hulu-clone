@@ -1,0 +1,26 @@
+.categories{
+    width: 100%;
+    color: white;
+    display: flex;
+    overflow-x: scroll;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.categories > h2{
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-right: 40px;
+    text-size-adjust: auto;
+    white-space: nowrap;
+    opacity: 0.8;
+    transition: all 30ms ;
+    cursor: pointer;
+    
+}
+.categories >h2:hover{
+    opacity: 1.4;
+    transform: scale(1.2);
+}
+.categories::-webkit-scrollbar {
+    display: none;
+}
